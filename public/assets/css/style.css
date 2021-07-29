@@ -71,6 +71,10 @@
   flex-direction: column;
 }
 
+.order-detail-title-text{
+  font-weight: 700;
+}
+
 .order-detail .order-detail-top{
   margin:0;
 }
