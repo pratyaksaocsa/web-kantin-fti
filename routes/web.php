@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/ius', function () {
+    return view('ius');
+});
+
+Route::get('/checkout', function () {
+    return view('checkout');
+});
+
+Route::get('/order', function () {
+    return view('order');
+});
+
