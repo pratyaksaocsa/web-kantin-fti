@@ -110,6 +110,7 @@ input[type=number] {
 
 .order-middle{
   margin-bottom: 1em;
+  margin-top: 3em;
 }
 
 .icon-footer{
@@ -126,6 +127,147 @@ footer h5 {
   color: white;
   font-weight: bold;
 }
+
+
+@media (max-width: 575.98px) { 
+
+  .banner-title-text h2{
+    font-size: 36px !important;
+  }
+
+  .icon-img{
+    width: 10%;
+    margin: 1em;
+    position: relative;
+  }
+
+  .jumlah {
+    width: 100%;
+  }
+
+  .order-middle {
+    margin-top: 1em;
+  }
+
+  .order-middle h4 {
+    font-size: 18px;
+  }
+
+  .order-detail-title-text{
+    margin-top: 1em;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .order-detail-description-text{
+    font-size: 16px;
+  }
+
+  .order-detail-bottom{
+    margin-top: 1em;
+  }
+
+  .order-detail-price-strike-text {
+    font-size: 12px;
+  }
+
+  .order-detail-price-text {
+    font-size: 18px;
+  }
+
+  .btn-txt{
+    font-size: 20px;
+  }
+  
+  .list-menu{
+    text-align: center !important;
+    
+  }
+
+  .icon-footer{
+    max-width: 10%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .banner-title-text h2{
+    font-size: 36px !important;
+  }
+
+  .order-img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .icon-img{
+    width: 10%;
+    margin: 1em;
+    position: relative;
+  }
+
+  .jumlah {
+    width: 100%;
+  }
+
+  .order-middle {
+    margin-top: 1em;
+  }
+
+  .order-middle h4 {
+    font-size: 18px;
+  }
+
+  .order-detail-title-text{
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .order-detail-description-text{
+    font-size: 16px;
+  }
+
+  .order-detail-bottom{
+    margin-top: 1em;
+  }
+
+  .order-detail-price-strike-text {
+    font-size: 12px;
+  }
+
+  .order-detail-price-text {
+    font-size: 18px;
+  }
+
+  .btn-txt{
+    font-size: 20px;
+  }
+  
+  .list-menu{
+    text-align: center !important;
+    
+  }
+  .left {
+    text-align: left;
+  }
+  .icon-footer{
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+@media (min-width: 1200px) { 
+
+ }
+
 
 .banner-container{
   width: 100%;
