@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ asset('assets/slick/slick.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/slick/slick-theme.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-  <title>Order Kantin FTI</title>
+  <title>Kantin FTI | Order Page</title>
 </head>
 <body>
 

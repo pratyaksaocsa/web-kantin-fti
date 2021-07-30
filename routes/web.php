@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ius', function () {
-    return view('ius');
-});
-
 Route::get('/checkout', function () {
     return view('checkout');
 });
