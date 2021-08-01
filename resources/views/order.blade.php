@@ -77,6 +77,8 @@
     <form>
         <div class="order-middle row align-items-center">
           <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 float-start ">
+              <input type="hidden" value="id_barang">
+              
               <h4> <strong> Jumlah</strong></h4>
           </div>
           <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12  float-end">
