@@ -55,7 +55,7 @@
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-sm-1 g-4 mx-4 mb-5">
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/indomie_goreng.jpg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/indomie_goreng.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Indomie Goreng</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -67,7 +67,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/nsagor.jpg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/nsagor.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Nasi Goreng</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -79,7 +79,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/risol.jpg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/risol.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Risoles</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -91,7 +91,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/roti.jpeg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/roti.jpeg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Roti</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -103,7 +103,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/soto.jpg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/soto.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Soto</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -115,7 +115,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/tahu_isi.jpg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/tahu_isi.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Tahu Isi</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -133,7 +133,7 @@
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-sm-1 g-4 mx-4 mb-5">
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/kopi.jpg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/kopi.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Kopi</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -145,7 +145,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/esteh.jpg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/esteh.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Es Teh</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -157,7 +157,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/uc1000.jpeg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/uc1000.jpeg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Lemon Water</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -169,7 +169,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/aqua.jpg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/aqua.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Air Mineral</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -181,7 +181,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/sprite.jpeg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/sprite.jpeg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Sprite</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>
@@ -193,7 +193,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/susu.jpg') }}" class="card-img-top p-3" alt="Nama barang">
+                    <img src="{{ asset('assets/img/susu.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
                     <div class="card-body">
                         <h5 class="card-title">Susu</h5>
                         <p class="card-text-description">Ketan dengan isian ayam</p>

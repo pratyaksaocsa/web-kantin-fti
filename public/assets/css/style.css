@@ -9,6 +9,11 @@
   color: #000!important;
 }
 
+/* Registration Page */
+.form-group {
+  margin-bottom: 1em !important;
+}
+
 /* Order Page */
 .banner-container-order{
   width: 100%;
@@ -109,7 +114,7 @@
   border-radius: 15px !important;
 }
 
-.card-img-top {
+.card-gambar-produk {
   border-radius: 25px !important;
   height: 250px;
   object-fit: cover;
