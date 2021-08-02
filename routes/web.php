@@ -21,6 +21,10 @@ Route::get('/checkout', function () {
     return view('checkout');
 });
 
+Route::get('/produk', function () {
+    return view('produk');
+});
+
 Route::get('/order', function () {
     return view('order');
 });
