@@ -97,8 +97,44 @@
 }
 
 .jumlah {
-  width: 25%;
+  width: 50%;
 }
+
+/* Checkout Page */
+.nama-menu {
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 15px !important;
+}
+
+.card-img-top {
+  border-radius: 25px !important;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 700 !important;
+}
+
+.card-text-description {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card-text-description-stroke {
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.card-text span {
+  font-weight: 700;
+  float: right;
+}
+
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,

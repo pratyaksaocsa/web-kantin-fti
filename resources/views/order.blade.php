@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ asset('assets/slick/slick.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/slick/slick-theme.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-  <title>Order Kantin FTI</title>
+  <title>Kantin FTI | Order Page</title>
 </head>
 <body>
 
@@ -77,6 +77,8 @@
     <form>
         <div class="order-middle row align-items-center">
           <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 float-start ">
+              <input type="hidden" value="id_barang">
+              
               <h4> <strong> Jumlah</strong></h4>
           </div>
           <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12  float-end">

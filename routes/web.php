@@ -17,12 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ius', function () {
-    return view('ius');
-});
-
 Route::get('/checkout', function () {
     return view('checkout');
+});
+
+Route::get('/produk', function () {
+    return view('produk');
 });
 
 Route::get('/order', function () {
