@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="{{ asset('assets/slick/slick.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/slick/slick-theme.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-  <title>Kantin FTI | Checkout Page</title>
+  <title>Kantin FTI | Registration Page</title>
 </head>
 <body class="d-flex h-100 text-dark text-justify bg-primary">
   <!-- Menu -->
@@ -27,14 +27,18 @@
                 <label class="form-label">Nama	</label>
                 <input type="text" name="Nama" placeholder="(Your Name)" class="form-control">
               </div>
-              <div class="form-group">
+				      <div class="form-group">
                 <label class="form-label">Username	</label>
-				        <input type="text" name="Username" placeholder="(Username)" class="form-control">
-              </div>
+				    	  <input type="text" name="Username" class="form-control" placeholder="(Username)" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+				      </div>
+              <div class="form-group">
+                <label class="form-label">Email/Number	</label>
+				    	  <input type="text" name="Email/Number" class="form-control" placeholder="(Email or Number)" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+				      </div>
               <div class="form-group">
                 <label class="form-label">ID	</label>
-				        <input type="text" name="ID" placeholder="(ID)"class="form-control">
-              </div>
+					      <input type="number" name="id" class="form-control" placeholder="(ID)" required>
+			      	</div>
               <div class="form-group">
                 <label class="form-label">Password	</label>
 				        <input type="password" name="Password" placeholder="(Password)"class="form-control">
