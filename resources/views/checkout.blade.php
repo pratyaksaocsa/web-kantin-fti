@@ -53,25 +53,49 @@
       <div class="bg-white order shadow">
         <div class="row g-3">
           <div class="col-md-6">
-            <h5>Produk </h5>
-            <div class="barang d-flex justify-content-between">
+          <h5><b>Produk </b></h5>
+
+
+    <!--Produk 1-->
+    <div class="row g-3">
+        <div class="col-md-4 col-lg-4 col-xs-6 col-sm-12 float-start">
+            <img src="{{ asset('assets/img/resep-kue-lemper-ayam.jpg') }}" alt="Lemper" class="checkout-img">
+        </div>
+    <div class="col-md-8">
+    <br>
+    <div class="barang d-flex justify-content-between">
+
               <div class="barang-left">
                 <p class="mb-0">Lemper	</p>
                 <p class="fw-light mt-0">Ketan dengan isian ayam	</p>
               </div>
               <div class="barang-left d-flex align-items-center">
-                <p class="">Rp.15.000	</p>
+                <p class="">    Rp.15.000	</p>
               </div>
             </div>
-            <div class="barang d-flex justify-content-between">
+    </div>
+  </div>
+
+  <br>
+  <!--Produk 2-->
+  <div class="row g-3">
+        <div class="col-md-4 col-lg-4 col-xs-6 col-sm-12 float-start">
+            <img src="{{ asset('assets/img/soto.jpg') }}" alt="Soto" class="checkout-img">
+        </div>
+    <div class="col-md-8">
+    <br>
+    <div class="barang d-flex justify-content-between">
+
               <div class="barang-left">
                 <p class="mb-0">Soto	</p>
-                <p class="fw-light mt-0">Semangkut Soto Hangat	</p>
+                <p class="fw-light mt-0">Semangkuk soto hangat	</p>
               </div>
               <div class="barang-left d-flex align-items-center">
-                <p class="">Rp.10.000	</p>
+                <p class="">    Rp.15.000	</p>
               </div>
             </div>
+    </div>
+  </div>
             <hr>
             <div class="barang d-flex justify-content-between">
               <div class="barang-left">
@@ -82,7 +106,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-5.5">
             <div class="row g-3">
               <label class="form-label">Metode Pembayaran	</label>
               <div class="input-group mb-3">
