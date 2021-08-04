@@ -48,10 +48,87 @@
     </div>
   </div>
   <div class="container ">
-    <div class="bg-white order shadow">
-    
+    <form action="#">
+      <div class="bg-white order shadow">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <h5>Produk </h5>
+            <div class="barang d-flex justify-content-between">
+              <div class="barang-left">
+                <p class="mb-0">Lemper	</p>
+                <p class="fw-light mt-0">Ketan dengan isian ayam	</p>
+              </div>
+              <div class="barang-left d-flex align-items-center">
+                <p class="">Rp.15.000	</p>
+              </div>
+            </div>
+            <div class="barang d-flex justify-content-between">
+              <div class="barang-left">
+                <p class="mb-0">Soto	</p>
+                <p class="fw-light mt-0">Semangkut Soto Hangat	</p>
+              </div>
+              <div class="barang-left d-flex align-items-center">
+                <p class="">Rp.10.000	</p>
+              </div>
+            </div>
+            <hr>
+            <div class="barang d-flex justify-content-between">
+              <div class="barang-left">
+                <p class="mb-0">Subtotal Produk	</p>
+              </div>
+              <div class="barang-left d-flex align-items-center">
+                <p class="">Rp.30.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-3">
+              <label class="form-label">Metode Pembayaran	</label>
+              <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Option</label>
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Cash</option>
+                  <option value="1">OVO</option>
+                  <option value="2">GOPAY</option>
+                  <option value="3">DANA</option>
+                </select>
+              </div>
+            </div>
+            <hr>
+            <div class="barang d-flex justify-content-between fw-light">
+              <div class="barang-left">
+                <p class="mb-0">Biaya Penanganan	</p>
+              </div>
+              <div class="barang-left d-flex align-items-center">
+                <p class="">Rp.1.000</p>
+              </div>
+            </div>
+            <div class="barang d-flex justify-content-between">
+              <div class="barang-left">
+                <p class="mb-0">Subtotal Produk	</p>
+              </div>
+              <div class="barang-left d-flex align-items-center">
+                <p class="">Rp.30.000</p>
+              </div>
+            </div>
+            <hr>
+            <div class="barang d-flex justify-content-between ">
+              <div class="barang-left">
+                <p class="mb-0">Total Harga</p>
+              </div>
+              <div class="barang-left d-flex align-items-center">
+                <p class="">Rp.31.000</p>
+              </div>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary w-100">Pesan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
-  </div>
+  
   <footer class="bg-primary text-white text-center text-lg-start">
   <div class="container p-4">
     <div class="row align-items-center ">
