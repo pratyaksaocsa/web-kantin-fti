@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{ asset('assets/slick/slick.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/slick/slick-theme.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <title>Kantin FTI | Checkout Page</title>
 </head>
 <body>
@@ -21,9 +22,9 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Produk</a>
+          <a class="nav-link" href="#"><i class="bi-cart-fill"></i></a>
+          <a class="nav-link" href="#"><i class="bi-person-circle"></i></a>
         </div>
       </div>
     </div>
@@ -143,19 +144,19 @@
       <div class="col-lg-4 col-md-4 mb-4 mb-md-0 list-menu">
         <ul class="list-unstyled mb-0 float-lg-end float-md-end float-sm-center float-xs-center">
           <li>
-            <a href="#" class="footer-link">Menu 1</a>
+            <a href="#" class="footer-link">Menu</a>
           </li>
           <li>
-            <a href="#" class="footer-link">Menu 2</a>
+            <a href="#" class="footer-link">Hubungi</a>
           </li>
           <li>
-            <a href="#" class="footer-link">Menu 3</a>
+            <a href="#" class="footer-link">Produk</a>
           </li>
           <li>
-            <a href="#" class="footer-link">Menu 4</a>
+            <a href="#" class="footer-link">Keranjang</a>
           </li>
           <li>
-            <a href="#" class="footer-link">Menu 5</a>
+            <a href="#" class="footer-link">Profil Kantin FTI</a>
           </li>
         </ul>
       </div>

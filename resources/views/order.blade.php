@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{ asset('assets/slick/slick.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/slick/slick-theme.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <title>Kantin FTI | Order Page</title>
 </head>
 <body>
@@ -19,11 +20,11 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
+        <div class="nav navbar-nav ms-auto">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Produk</a>
+          <a class="nav-link" href="#"><i class="bi-cart-fill"></i></a>
+          <a class="nav-link" href="#"><i class="bi-person-circle"></i></a>
         </div>
       </div>
     </div>
@@ -65,10 +66,10 @@
             </div>
             <div class="order-detail-bottom mb-0 ">
                 <div class="order-detail-price-strike">
-                    <p class="order-detail-price-strike-text text-secondary">Harga : <span>Rp.2000,00</span></p>
+                    <p class="order-detail-price-strike-text text-secondary">Harga : <span>Rp 2.500,00</span></p>
                 </div>
                 <div class="order-detail-price ">
-                    <p class="order-detail-price-text">Harga : <span class="text-primary">Rp.2000,00</span></p>
+                    <p class="order-detail-price-text">Harga : <span class="text-primary">Rp 2.000,00</span></p>
                 </div>
             </div>
         </div>
@@ -84,7 +85,7 @@
           <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12  float-end">
             <div class="input-group jumlah">
               <button type="button" onclick="decrement()"  class="btn btn-primary" > - </button>
-              <input type="number" step="1" max="100" value="1" name="jumlah" class="form-control" id="jumlah" />
+              <input type="number" step="1" min="0" max="100" value="1" name="jumlah" class="form-control" id="jumlah" />
               <button type="button" onclick="increment()"  class="btn btn-primary"> + </button>
             </div>
           </div>
@@ -107,19 +108,19 @@
       <div class="col-lg-4 col-md-4 mb-4 mb-md-0 list-menu">
         <ul class="list-unstyled mb-0 float-lg-end float-md-end float-sm-center float-xs-center">
           <li>
-            <a href="#" class="footer-link">Menu 1</a>
+            <a href="#" class="footer-link">Menu</a>
           </li>
           <li>
-            <a href="#" class="footer-link">Menu 2</a>
+            <a href="#" class="footer-link">Hubungi</a>
           </li>
           <li>
-            <a href="#" class="footer-link">Menu 3</a>
+            <a href="#" class="footer-link">Produk</a>
           </li>
           <li>
-            <a href="#" class="footer-link">Menu 4</a>
+            <a href="#" class="footer-link">Keranjang</a>
           </li>
           <li>
-            <a href="#" class="footer-link">Menu 5</a>
+            <a href="#" class="footer-link">Profil Kantin FTI</a>
           </li>
         </ul>
       </div>
