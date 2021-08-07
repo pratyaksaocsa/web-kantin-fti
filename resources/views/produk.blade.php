@@ -1,5 +1,9 @@
 @extends('layout.app')
 
+@section('title')
+Product
+@endsection
+
 @section('content')
   <div class="container-fluid banner-section">
     <div class="banner-container-order">
