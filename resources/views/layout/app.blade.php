@@ -50,6 +50,11 @@
                 <!-- </div> -->
             </div>
     </footer>
+
+    <div class="my-cart">
+        <img src="{{ asset('assets/img/cart.png') }}"/>
+    </div>
+
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="{{ asset('assets/js/bootstrap.js') }}"></script>
 
