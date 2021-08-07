@@ -28,7 +28,7 @@
       </div>
     </div>
   </nav>
-  <div class="continer-fluid banner-section">
+  <div class="container-fluid banner-section">
     <div class="banner-container-order">
       <div class="background-image-order">
         <img src="{{ asset('assets/img/background1.jpeg') }}" class="image-banner-order">
@@ -243,7 +243,7 @@
   <script src="{{ asset('assets/js/script.js') }}"></script>
   <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
   <script src="{{ asset('assets/js/bootstrap.js') }}"></script>
-    
+
   <script src="{{ asset('assets/slick/slick.min.js') }}"></script>
   <script src="{{ asset('assets/js/script.js') }}"></script>
 </body>
