@@ -15,3 +15,4 @@
         </div>
     </div>
 </nav>
+@include('component.cart-card')

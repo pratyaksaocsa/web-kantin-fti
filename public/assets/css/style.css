@@ -9,6 +9,25 @@
   color: #000!important;
 }
 
+/* Cart Card */
+#tampilcart {
+  display: none;
+  position: fixed;
+  opacity: 0;
+  right: 1em;
+  bottom: 5em;
+  z-index: 5;
+  -webkit-transition: 1s;
+  transition: 1s;
+  transition:.5s ease-in all;
+}
+
+.cart-card-img {
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+}
+
 /* Registration Page */
 .form-group {
   margin-bottom: 1em !important;
@@ -183,10 +202,36 @@ footer h5 {
 
 @media (max-width: 575.98px) {
 
+  .img-cart {
+    max-width: 20%;
+  }
+
+  .text-cart {
+    max-width: 40%;
+  }
+
+  .price-cart {
+    max-width: 40%;
+  }
+
+  .text-cart h5{
+    font-size: 16px !important;
+  }
+
+  .text-cart h6{
+    font-size: 16px !important;
+  }
+
+  .text-cart p{
+    font-size: 14px !important;
+  }
+
+
   .banner-title-text h2{
     font-size: 36px !important;
   }
 
+  
   .icon-img{
     width: 10%;
     margin: 1em;
@@ -242,12 +287,34 @@ footer h5 {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .text-cart h5{
+    font-size: 18px !important;
+  }
 
+  .text-cart p{
+    font-size: 14px !important;
+  }
+
+  .price-cart h6{
+    font-size: 16px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .banner-title-text h2{
     font-size: 36px !important;
+  }
+
+  .text-cart h5{
+    font-size: 18px !important;
+  }
+  
+  .text-cart p{
+    font-size: 14px !important;
+  }
+
+  .price-cart h6{
+    font-size: 16px !important;
   }
 
   .order-img{
@@ -313,7 +380,17 @@ footer h5 {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .text-cart h5{
+    font-size: 18px !important;
+  }
+  
+  .text-cart p{
+    font-size: 14px !important;
+  }
 
+  .price-cart h6{
+    font-size: 16px !important;
+  }
  }
 
 @media (min-width: 1200px) {
@@ -418,6 +495,7 @@ footer h5 {
     border-radius: 40px;
     cursor: pointer;
     transition:.5s ease-in all;
+    z-index: 6;
 }
 
 .my-cart:hover{
@@ -426,6 +504,6 @@ footer h5 {
 }
 
 .my-cart img{
+    transition:.5s ease-in all;
     width: 100%;
-    margin-top: 5px;
 }
