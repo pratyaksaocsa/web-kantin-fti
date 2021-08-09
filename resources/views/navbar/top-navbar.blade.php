@@ -7,10 +7,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="/">Home</a>
+                <a class="nav-link {{ Request::is('produk') ? 'active' : '' }}" href="/produk">Produk</a>
+                <a class="nav-link {{ Request::is('checkout') ? 'active' : '' }}" href="/checkout">Checkout</a>
+                <a class="btn btn-primary btn-outline-light " href="/register"> SignUp</a>
             </div>
         </div>
     </div>

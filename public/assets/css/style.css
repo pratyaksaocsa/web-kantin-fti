@@ -11,15 +11,13 @@
 
 /* Cart Card */
 #tampilcart {
+  transition: all 1s linear;
   display: none;
   position: fixed;
   opacity: 0;
   right: 1em;
   bottom: 5em;
   z-index: 5;
-  -webkit-transition: 1s;
-  transition: 1s;
-  transition:.5s ease-in all;
 }
 
 .cart-card-img {

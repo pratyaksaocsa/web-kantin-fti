@@ -31,13 +31,13 @@
                 <div class="col-lg-4 col-md-4 mb-4 mb-md-0 list-menu">
                     <ul class="list-unstyled mb-0 float-lg-end float-md-end float-sm-center float-xs-center">
                         <li>
-                            <a href="#" class="footer-link">Menu 1</a>
+                            <a href="#" class="footer-link">Halaman Utama</a>
                         </li>
                         <li>
-                            <a href="#" class="footer-link">Menu 2</a>
+                            <a href="#" class="footer-link">Produk</a>
                         </li>
                         <li>
-                            <a href="#" class="footer-link">Menu 3</a>
+                            <a href="#" class="footer-link">Checkout</a>
                         </li>
                         <li>
                             <a href="#" class="footer-link">Menu 4</a>
@@ -52,7 +52,7 @@
     </footer>
 
     
-
+    <!-- <script src="//kit.fontawesome.com/03dff2321c.js" crossorigin="anonymous"></script> -->
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="{{ asset('assets/js/bootstrap.js') }}"></script>
 

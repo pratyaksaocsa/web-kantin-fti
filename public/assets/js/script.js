@@ -29,11 +29,11 @@ $(window).scroll(function () {
 $(document).ready(function () {
     // Carousell Configuration
     $(".slick").slick({
-        infinite: false,
+        infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
         prevArrow: '<i class="slick-nav-left fas fa-arrow-left"></i>',
         nextArrow: '<i class="slick-nav-right fas fa-arrow-right"></i>',
         cssEase: "ease-in-out",
