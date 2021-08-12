@@ -29,83 +29,21 @@
 
         <h5 class="nama-menu mt-5 mx-5">Menu Makanan</h5>
         <div class="row  mx-4 mb-5 slick">
-            <div class="col-md-4">
-                <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/indomie_goreng.jpg') }}" class="card-img-top card-gambar-produk p-3"
-                        alt="Nama barang">
-                    <div class="card-body">
-                        <h5 class="card-title">Indomie Goreng</h5>
-                        <p class="card-text-description">Ketan dengan isian ayam</p>
-                        <p class="card-text-description-stroke text-secondary">Harga : Rp.3.000,00</p>
-                        <p class="card-text">Harga Lama : <span class="text-primary">Rp.2.000,00<span></p>
-                        <a href="#" class="btn btn-primary w-100">Pesan Sekarang</a>
+            @foreach ($menu as $row)
+                <div class="col-md-4">
+                    <div class="card h-100 ">
+                        <img src="{{ asset('assets/img/indomie_goreng.jpg') }}" class="card-img-top card-gambar-produk p-3"
+                            alt="Nama barang">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ $row->name }}</h5>
+                            <p class="card-text-description">Ketan dengan isian ayam</p>
+                            <p class="card-text-description-stroke text-secondary">Harga lama : Rp{{ $row->price }}</p>
+                            <p class="card-text">Harga : <span class="text-primary">Rp{{ $row->price }}<span></p>
+                            <a href="#" class="btn btn-primary w-100">Pesan Sekarang</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/nsagor.jpg') }}" class="card-img-top card-gambar-produk p-3"
-                        alt="Nama barang">
-                    <div class="card-body">
-                        <h5 class="card-title">Nasi Goreng</h5>
-                        <p class="card-text-description">Ketan dengan isian ayam</p>
-                        <p class="card-text-description-stroke text-secondary">Harga : Rp.3.000,00</p>
-                        <p class="card-text">Harga Lama : <span class="text-primary">Rp.2.000,00<span></p>
-                        <a href="#" class="btn btn-primary w-100">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/risol.jpg') }}" class="card-img-top card-gambar-produk p-3"
-                        alt="Nama barang">
-                    <div class="card-body">
-                        <h5 class="card-title">Risoles</h5>
-                        <p class="card-text-description">Ketan dengan isian ayam</p>
-                        <p class="card-text-description-stroke text-secondary">Harga : Rp.3.000,00</p>
-                        <p class="card-text">Harga Lama : <span class="text-primary">Rp.2.000,00<span></p>
-                        <a href="#" class="btn btn-primary w-100">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/roti.jpeg') }}" class="card-img-top card-gambar-produk p-3"
-                        alt="Nama barang">
-                    <div class="card-body">
-                        <h5 class="card-title">Roti</h5>
-                        <p class="card-text-description">Ketan dengan isian ayam</p>
-                        <p class="card-text-description-stroke text-secondary">Harga : Rp.3.000,00</p>
-                        <p class="card-text">Harga Lama : <span class="text-primary">Rp.2.000,00<span></p>
-                        <a href="#" class="btn btn-primary w-100">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/soto.jpg') }}" class="card-img-top card-gambar-produk p-3" alt="Nama barang">
-                    <div class="card-body">
-                        <h5 class="card-title">Soto</h5>
-                        <p class="card-text-description">Ketan dengan isian ayam</p>
-                        <p class="card-text-description-stroke text-secondary">Harga : Rp.3.000,00</p>
-                        <p class="card-text">Harga Lama : <span class="text-primary">Rp.2.000,00<span></p>
-                        <a href="#" class="btn btn-primary w-100">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 ">
-                    <img src="{{ asset('assets/img/tahu_isi.jpg') }}" class="card-img-top card-gambar-produk p-3"
-                        alt="Nama barang">
-                    <div class="card-body">
-                        <h5 class="card-title">Tahu Isi</h5>
-                        <p class="card-text-description">Ketan dengan isian ayam</p>
-                        <p class="card-text-description-stroke text-secondary">Harga : Rp.3.000,00</p>
-                        <p class="card-text">Harga Lama : <span class="text-primary">Rp.2.000,00<span></p>
-                        <a href="#" class="btn btn-primary w-100">Pesan Sekarang</a>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
         <!-- Menu Makanan -->
 

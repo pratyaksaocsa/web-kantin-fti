@@ -12,16 +12,16 @@
 </head>
 <body class="form-v6">
   <!-- Menu -->
-  
+
 	<div class="page-content">
 		<div class="form-v6-content">
-			<div class="form-left">  
+			<div class="form-left">
       <div class="row col-lg-12 col-md-12">
             <div class="col-md-6 col-lg-6 ">
-              <img src="/assets/img/makananregist.jpg" class="w-100"> 
+              <img src="/assets/img/makananregist.jpg" class="w-100">
             </div>
-            
-              
+
+
             <div class="col-md-6 col-lg-6 ">
             <form class="form-detail" action="#" method="post">
               <h2><strong>Registrasi Kantin UKSW</strong></h2>
@@ -42,13 +42,11 @@
               </div>
               <div class="form-row-last">
 				    	  <input type="submit" name="register" class="register" value="Register">
-			      	</div>   
-              <center>
+			      	</div>
               <h3>
                 <font size="3" color="black">Sudah punya akun? </font>
                 <a href="#" title="Menuju halaman Login"><font size="3">Silahkan Login</font></a>
               </h3>
-              </center>
               </form>
             </div>
 
@@ -71,7 +69,7 @@
   <script src="{{ asset('assets/js/script.js') }}"></script>
   <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
   <script src="{{ asset('assets/js/bootstrap.js') }}"></script>
-    
+
   <script src="{{ asset('assets/slick/slick.min.js') }}"></script>
   <script src="{{ asset('assets/js/script.js') }}"></script>
 </body>
