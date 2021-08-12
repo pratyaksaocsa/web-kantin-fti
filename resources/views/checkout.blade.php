@@ -70,17 +70,17 @@ Checkout
                     <p class="mb-0">Subtotal Produk	</p>
                 </div>
                 <div class="barang-left d-flex align-items-center">
-                    <p class="">Rp.30.000</p>
+                    <p class="totalSubProduk">Rp. 30,000</p>
                 </div>
             </div>
         </div>
-          <div class="col-md-5.5">
+          <div class="col-md-6">
             <div class="row g-3">
               <label class="form-label">Metode Pembayaran	</label>
               <div class="input-group mb-3">
                 <label class="input-group-text" for="inputGroupSelect01">Option</label>
-                <select class="form-select" id="inputGroupSelect01">
-                  <option selected>Cash</option>
+                <select class="form-select" name="payment" id="payment" onchange="run()">
+                  <option selected value="0">Cash</option>
                   <option value="1">OVO</option>
                   <option value="2">GOPAY</option>
                   <option value="3">DANA</option>
@@ -90,10 +90,10 @@ Checkout
             <hr>
             <div class="barang d-flex justify-content-between fw-light">
               <div class="barang-left">
-                <p class="mb-0">Biaya Penanganan	</p>
+                <p class="mb-0">Biaya Penanganan </p>
               </div>
               <div class="barang-left d-flex align-items-center">
-                <p class="">Rp.1.000</p>
+                <span id="additional_payment">0</span>
               </div>
             </div>
             <div class="barang d-flex justify-content-between">
@@ -101,7 +101,7 @@ Checkout
                 <p class="mb-0">Subtotal Produk	</p>
               </div>
               <div class="barang-left d-flex align-items-center">
-                <p class="">Rp.30.000</p>
+                <p class="">Rp. 30,000</p>
               </div>
             </div>
             <hr>
@@ -110,7 +110,7 @@ Checkout
                 <p class="mb-0">Total Harga</p>
               </div>
               <div class="barang-left d-flex align-items-center">
-                <p class="">Rp.31.000</p>
+                <p id="totalHarga">Rp.30.000</p>
               </div>
             </div>
             <div class="form-group">
@@ -121,4 +121,28 @@ Checkout
       </div>
     </form>
   </div>
+  <script>
+    var money_span = document.getElementById("additional_payment");
+    var totalHarga = document.getElementById("totalHarga");
+    var totalSubProduk = document.getElementById("totalSubProduk");
+    TotalProduk = 30000;
+    function run() {
+      var payment = document.getElementById("payment").value;
+      if(payment === "1"){
+        money_value = 1000;
+      } else if(payment === "2"){
+        money_value = 2000;
+      } else if(payment === "3"){
+        money_value = 3000;
+      } else if(payment === "0"){
+        money_value = 0;
+      }
+      total = TotalProduk + money_value;
+      money = money_value.toLocaleString('en-US');  
+      money_span.innerHTML = "Rp. " + money_value ;
+      totalHarga.innerHTML = "Rp. " + total.toLocaleString('en-US');
+    }   
+    
+</script>
+
 @endsection

@@ -25,10 +25,8 @@
             <div class="col-md-6 col-lg-6 ">
             <form class="form-detail" action="#" method="post">
               <h2><strong>Registrasi Kantin UKSW</strong></h2>
-              <div class="form-row">
-                <input type="text" name="Nama" placeholder="Your Name" class="input-text">
-              </div>
-				      <div class="form-row">
+           
+			  <div class="form-row">
 				    	  <input type="text" name="Username" class="input-text" placeholder="Username" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
 				      </div>
               <div class="form-row">
