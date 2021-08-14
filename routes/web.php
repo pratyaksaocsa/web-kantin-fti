@@ -36,6 +36,4 @@ Route::get('/order', function () {
 	return view('order');
 });
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
-
 Auth::routes();
