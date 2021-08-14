@@ -26,25 +26,31 @@
 
                     <div class="col-md-6 col-lg-6 ">
                         <form class="form-detail" action="#" method="post">
-                            <h2><strong>Login Kantin UKSW</strong></h2>
+                            <h2><strong>Registrasi Kantin UKSW</strong></h2>
+
+                            <div class="form-row">
+                                <input type="text" name="Username" class="input-text" placeholder="Username" required
+                                    pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+                            </div>
                             <div class="form-row">
                                 <input type="text" name="Email/Number" class="input-text" placeholder="Email or Number"
                                     required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
                             </div>
                             <div class="form-row">
+                                <input type="number" name="id" class="input-text" placeholder="ID" required>
+                            </div>
+                            <div class="form-row">
                                 <input type="password" name="Password" placeholder="Password" class="input-text">
                             </div>
                             <div class="form-row-last">
-                                <input type="submit" name="login" class="register" value="Login">
+                                <input type="submit" name="register" class="register" value="Register">
                             </div>
-                            <center>
-                                <h3>
-                                    <font size="3" color="black">Sudah punya akun? </font>
-                                    <a href="#" title="Menuju halaman Login">
-                                        <font size="3">Silahkan Login</font>
-                                    </a>
-                                </h3>
-                            </center>
+                            <h3>
+                                <font size="3" color="black">Sudah punya akun? </font>
+                                <a href="/login" title="Menuju halaman Login">
+                                    <font size="3">Silahkan Login</font>
+                                </a>
+                            </h3>
                         </form>
                     </div>
 

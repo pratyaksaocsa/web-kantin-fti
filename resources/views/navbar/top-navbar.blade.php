@@ -10,7 +10,18 @@
                 <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="/">Home</a>
                 <a class="nav-link {{ Request::is('produk') ? 'active' : '' }}" href="/produk">Produk</a>
                 <a class="nav-link {{ Request::is('checkout') ? 'active' : '' }}" href="/checkout">Checkout</a>
-                <a class="btn btn-primary btn-outline-light " href="/register"> SignUp</a>
+
+                @guest
+                    <a class="btn btn-primary btn-outline-light " href="/register"> SignUp</a>
+                @else
+                    <a class="btn btn-primary btn-outline-light " href=" {{ route('logout') }}" onclick="event.preventDefault();
+                      document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}</a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+                @endguest
+
             </div>
         </div>
     </div>
