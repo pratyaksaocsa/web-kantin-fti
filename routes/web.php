@@ -1,6 +1,11 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\ProdukController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +18,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', [MenuController::class, 'index']);
+
+Route::get('/produk', [ProdukController::class, 'index']);
+
+Route::get('/checkout', function () {
+	return view('checkout');
 });
+
+Route::post('/loginProccess', [LoginController::class, 'loginProccess']);
+
+// Route::get('/produk', function () {
+//     return view('produk');
+// });
+
+Route::get('/order', function () {
+	return view('order');
+});
+
+Auth::routes();
